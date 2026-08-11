@@ -1,0 +1,9 @@
+name: 'dbt_practice'
+version: '1.0.0'
+config-version: 2
+profile: 'dbt_practice'
+model-paths: ["models"]
+seed-paths: ["seeds"]
+models:
+  dbt_practice:
+    +materialized: table

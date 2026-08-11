@@ -1,0 +1,7 @@
+.venv/
+practice.db
+__pycache__/
+*.pyc
+target/
+dbt_packages/
+logs/
